@@ -38,6 +38,10 @@
    
 }
 
+
+.navbar i{
+    display: none;
+}
 .right{
     width:250px;
     display:flex;
@@ -618,15 +622,606 @@ color:white;
 
 
 
+     @media (max-width:520px) {
+        .navbar{
+            padding-inline: 8%;
+        }
 
+        .navbar i{
+            display: block;
+            font-size: 30px;
+        }
+        .right{
+            display: none;
+        }
+    
+        .page-1{
+            padding-inline: 8%;
+            align-items: flex-start;
+            justify-content: flex-start;
+        }
+        .page-1 h1{
+            font-size: 50px;
+            font-weight: 900;
+            line-height:60px;
+            padding-right:30px;
+            text-align: start;
+        }
+    
+        .page-1 h3{
+            font-size:15px;
+            font-weight: 800;
+            color:white;
+            padding-block:15px;
+        }
+    
+        .page-1 button{
+            width:50%;
+            height:50px;
+            background-color: white;
+            color:black;
+            border:none;
+            border-radius:50px;
+            font-size:18px;
+            font-weight:900;
+            margin-block:30px;
+        }
+    
+    
+        
+    .image{
+        width:100%;
+        display:flex;
+        padding-inline:8%;
+        padding-top:200px;
+        z-index: 1;
+       
+    }
+    
+    .image-1{
+        width:auto;
+        height:370px;
+    display: none;
+    }
+    
+    .image-2{
+        width:200px;
+        height:270px;
+        position: relative;
+        right:20px;
+        bottom:0px;
+       
+    }
+    
+    .image-3{
+        width:200px;
+        height:270px;
+        position: relative;
+        right:50px;
+        bottom:30px;
+        z-index: 3;
+    
+        
+    }
+    
+    .image-4{
+        width:200px;
+        height:270px;
+        position: relative;
+        right:80px;
+        bottom:0px;
+        z-index: 2;
+        
+        
+    }
+    
+    .image-5{
+        display: none;
+        width:auto;
+        height:370px;
+        position: relative;
+        right:400px;
+        z-index: 1;
+        
+    }
+    
+    
+    
+    .section-2{
+        width:100%;
+        height:auto;
+        background-image:url(./image/deserve-more-bg-mobile.jpg);
+        background-size:cover;
+        background-position:center;
+        z-index: 6;
+        position: relative;
+        bottom: 33px;
+    
+    }
+    
+    .chair{
+        width:100%;
+        height:auto;
+        padding-inline:10%;
+        padding-block:100px;
+    }
+    
+    .chair h1{
+        font-size:60px;
+        line-height: 60px;
+        color:white;
+        padding-block:10px;
+    }
+    
+    .chair h3{
+        font-size:18px;
+        color:white;
+        padding-block:10px;
+    }
+    
+    .chair p{
+        margin-top: 400px;
+        font-size:15px;
+        color:white;
+    }
+    
+    .chair button{
+        width:70%;
+        height:50px;
+        background-color: white;
+        color:black;
+        border:none;
+        border-radius:50px;
+        font-size:18px;
+        font-weight:700;
+        margin-block:30px;
+    }
+    
+    
+    
+    .section-3{
+        width:100%;
+        padding-inline:10%;
+        padding-block:70px;
+        background-color: rgb(248,248,248);
+    }
+    
+    .section-3 h1{
+        font-size:18px;
+        padding-inline:0px;
+        padding-bottom:40px; 
+    }
+    
+    .desktop{
+        display: none;
+    }
+    
+    .mobile{
+        display: block;
+        width: 100%;
+    }
+    
+    
+    
+    
+    .section-4{
+        width:100%;
+        height:auto;
+        padding-top: 100px;
+        background-image:url(./image/money-matters-bg-mobile.jpg);
+        background-size:cover;
+        background-position:center;
+    }
+    
+    .para{
+        margin-top: 400px;
+        width:100%;
+        height:auto;
+        padding-inline:10%;
+    }
+    
+    .para h1{
+        font-size:60px;
+        line-height: 60px;
+        color:white;
+        padding-block:10px;
+    }
+    
+    .para h3{
+        font-size:20px;
+        color:white;
+        padding-block:10px;
+    }
+    
+    .para p{
+        font-size:13px;
+        color:white;
+        margin-top: 50px;
+        padding-right:0px;
+        line-height:20px;
+    }
+    
+    .para button{
+        width:80%;
+        height:50px;
+        background-color: white;
+        color:black;
+        border:none;
+        border-radius:50px;
+        font-size:16px;
+        font-weight:700;
+        margin-block:30px;
+    }
+    
+    
+    
+    .section-5{
+        width:100%;
+        height:auto;
+        background-image:url(./image/video-bg.jpeg);
+        background-size:cover;
+        background-position:center;
+        display:flex;
+        flex-direction: column;
+    }
+    
+    .right-part{
+        width:100%;
+        height:auto;
+        padding-inline:10%;
+        margin-top:50px;
+    }
+    
+    .right-part h1{
+        font-size:50px;
+        line-height: 55px;
+        color:white;
+        padding-block:50px;
+    }
+    
+    .right-part p{
+        font-size:13px;
+        color:white;
+        padding-block:10px;
+        letter-spacing:0px;
+    }
+    
+    .left-part{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center ;
+    }
+    .make-phone{
+        width:80%;
+        height: 500px;
+        padding-inline: 10%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 3px 10px 0 rgba(255, 255, 255, 0.37);
+        backdrop-filter: blur( 3.5px );
+        -webkit-backdrop-filter: blur( 3.5px );
+        border-radius: 50px;
+        border: 1px solid rgba( 255, 255, 255, 0.18 );
+    }
+    
+    .left-part img{
+        width:250px;
+        height:auto;
+        margin-top:0px;
+    }
+    
+    .section-5 .mobile{
+        font-size:13px;
+        color:white;
+        padding-block:50px;
+        padding-inline: 10%;
+        letter-spacing:0px;
+    }
+    
+    
+    .section-9{
+        display: none;
+    }
+    
+    
+    
+    .section-10{
+       
+        width:100%;
+        height:auto;
+        background-image:url(./image/security-bg-mobile.jpg);
+        background-size:cover;
+        background-position:center;
+        margin-top: -400px;
+    }
+    
+    
+    .para{
+        width:100%;
+        height:auto;
+        padding-inline:10%;
+    }
+    
+    
+    
+    
+    .section-11{
+        width:100%;
+        height:auto;
+        display: flex;
+        flex-direction: column;
+        background-image:url(./image/trust-bg.jpg);
+        
+    }
+    
+    .story-1{
+        width:100%;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        padding:10%;
+    
+    }
+    
+    .story-1 h1{
+    font-size:55px;
+    font-weight: 900;
+    line-height: 60px;
+    color:white;
+    }
+    
+    .story-2{
+        width:100%;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    
+    .story-2 p{
+        font-size:13px;
+        color:white;
+        padding:10%;
+        line-height:25px;
+        }
+    
+    
+        
+    
+        .section-12{
+            width:100%;
+            height:auto;
+            background-image: url(./image/hero-bg.jpeg);
+            padding-block:60px;
+            
+        }
+    
+        .point{
+            width:100%;
+            height:auto;
+            display:flex;
+            flex-direction: column;
+            padding-block:60px;
+        }
+    
+        .app-1 span{
+            display:flex;
+        }
+    
+        .app-1{
+            width:100%;
+            height:auto;
+            display:flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            padding-inline:5%;
+    
+        }
+        
+        .app-1 h1{
+            font-size:100px;
+            color:white;
+            text-align: center;
+            margin-right:30px;
+            
+        }
+    
+        .app-1 img{
+            width:80px;
+            height:20px;
+            margin-right:130px;
+        }
+          
+        
+        .app-1 h2{
+            font-size:45px;
+            color:white;
+            padding-top:20px;
+           
+        }
+        
+        .desktop-resp{
+            display: none;
+        }
+        .mobile-resp{
+             display: block;
+            width:70%;
+            height:50px;
+            background-color: white;
+            color:black;
+            border:none;
+            border-radius:50px;
+            font-size:15px;
+            font-weight:700;
+            margin-block:30px;
+            margin-inline: 10%;
+        }
+    
+        .app-2{
+            width:100%;
+            height:auto;
+            display:flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            padding-inline:5%;
+        }
+        
+        .app-2 h1{
+            font-size:100px;
+            color:white;
+            text-align: center;
+            margin-right:30px;
+        }
+        
+        .app-2 h2{
+            font-size:45px;
+            color:white;
+            padding-top:20px;
+           
+        }
+    
+        .app-2 img{
+            width:100px;
+            height:20px;
+            margin-right:130px;
+        }
+    
+        .app-2 span{
+            display:flex;
+        }
+    
+        
+        
+    
+        .section-12 p{
+            font-size:19px;
+            color:white;
+            text-align: start;
+            padding-block:20px;
+        }
+    
+        #new-p{
+            padding-inline:10%;
+        }
+    
+    
+        .section-13{
+            width:100%;
+            height:auto;
+            background-color:rgb(36,36,36) ;
+            padding-inline:10%;
+            padding-block:100px;
+    
+        }
+    
+        .section-13 h3{
+           color:gray;
+           font-size:20px;
+        }
+    
+        .section-13 p{
+            color:gray;
+            font-size:15px;
+         }
+    
+         .section-13 hr{
+            background-color:gray;
+            height:1px;
+            border:none;
+         }
+    
+    
+    
+    
+         .footer{
+            width:100%;
+            height:auto;
+            display:flex;
+            flex-direction: column;
+            background-color:rgb(22,21,23);
+         }
+    
+         .foot-1{
+            width:100%;
+            height:auto;
+            display:flex;
+            justify-content: space-between;
+            flex-direction: column; 
+            padding-block:70px;
+            padding-inline:10%;
+    
+         
+         }
+    
+         
+    
+         .foot-1 img{
+            width:50px;
+            height:50px;
+            
+         }
+    
+         #second-image{
+            width:70%;
+            height:auto;
+            margin-top:70px;
+            margin-bottom:50px;
+         }
+    
+         .foot-1 h3{
+            font-size:18px;
+            color:gray;
+         }
+    
+         .foot-1 h2{
+            font-size:18px;
+            color:gray;
+         }
+    
+    
+         .foot-1 p{
+            font-size:15px;
+            color:gray;
+         }
+    
+         
+    
+    
+         .foot-2{
+          width:100%;  
+          height:auto;
+          padding-inline:10%;  
+          padding-block:70px;      
+         }
+    
+         .foot-2 span{
+            display:flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+         }
+    
+    
+    
+    
+    
+    }
 
 
 
 
      
-@media (max-width:768px) {
+@media ((min-width:520px) and (max-width:768px)) {
     .navbar{
         padding-inline: 8%;
+    }
+
+    .navbar i{
+        display: block;
+        font-size: 30px;
     }
     .right{
         display: none;
@@ -886,11 +1481,12 @@ display: none;
 .left-part{
     width: 100%;
     display: flex;
-    align-items: center;
-    justify-content: center ;
+    padding-inline: 10%;
+    align-items: flex-start;
+    justify-content: flex-start ;
 }
 .make-phone{
-    width:80%;
+    width:50%;
     height: 500px;
     padding-inline: 10%;
     display: flex;
